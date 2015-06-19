@@ -1,6 +1,6 @@
 Package.describe({
   name: 'q42:wait-for-image',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'A block helper to wait with rendering content until an image has been loaded',
   git: 'https://github.com/Q42/meteor-wait-for-image',
   documentation: 'README.md'
