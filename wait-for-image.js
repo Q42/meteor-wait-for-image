@@ -10,7 +10,16 @@ Template.waitForImage.onRendered(function() {
         loaded.set(true);
     };
 
-    img.src = this.data;
+    this.autorun(function() {
+        var url = Template.currentData();
+        if (url) {
+            console.log(url);
+
+            Meteor.setTimeout(function() {
+                img.src = url;
+            },17);
+        }
+    });
 });
 
 Template.waitForImage.helpers({
