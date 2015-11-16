@@ -1,1 +1,1 @@
-# wait-for-image
+this package is no longer in development
